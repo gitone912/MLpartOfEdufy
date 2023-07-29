@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "vtn",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
@@ -121,3 +123,12 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+import os
+
+# ...
+
+# Define the path to the directory where media files will be stored
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Define the base URL that serves the media files
+MEDIA_URL = '/media/'
