@@ -23,6 +23,25 @@
                 "form": []
             },
             "tests": []
+        },
+        {
+            "_id": "f27b1dae-f7de-4a4b-a395-3cd5009641d7",
+            "colId": "5cceeeaa-c98b-4b3f-992b-6744821d09a5",
+            "containerId": "",
+            "name": "qna",
+            "url": "http://127.0.0.1:8000/vtn/solveqna/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-29T10:34:44.686Z",
+            "modified": "2023-07-29T10:38:46.222Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"text\":\"Are you looking to hire someone who can code in Python? Python is the most popular coding language today. And for good reason, it's powerful, efficient, and has a wide range of users. And with Tescarol is entry-level Python test, you'll be able to find out which candidates know the essentials of Python. If you want to find this test in our library and add it to your assessment, it's easy. But first, let's take a quick look at the test and see what it's all about. This test measures a candidate's basic programming skills in Python. It uses a straightforward coding test to ensure a candidate has strong foundational knowledge of the language. This test is great when you want to hire a junior or entry-level programmer who uses Python. If a candidate does well here, it means they'll be able to hit the ground running with basics with plenty of knowledge for rapid growth in the future. So how exactly do we test for the basics of Python? Let's find out. This test is actually a single entry-level coding test. A candidate has 10 minutes to complete and submit their code. Then their code is evaluated against a set of test cases. Some of these are made available to the candidate so that they can check if they're on the right track. Here, we see a sample version. This is similar to the type of coding problem your candidates will see. Now let's take a look at the solution. Like most of the our coding tasks, there's more than one way to write code that answers the question correctly. Here's one example of how it could be done. Alright. So that's a quick overview of our entry-level Python test. And if you need more advanced coding tests, we have those two. Make sure to check out this test and others by visiting our test library.\",\n  \"question\":\"who is python\"\n}",
+                "form": []
+            },
+            "tests": []
         }
     ]
 }
