@@ -83,6 +83,7 @@ def download_youtube_video(link, save_path):
         raise Exception("Connection Error")  # To handle exceptions
 
     # Get the highest resolution stream (usually mp4)
+    print("Downloading video...")
     d_video = yt.streams.get_highest_resolution()
 
     try:
